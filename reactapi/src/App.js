@@ -5,7 +5,7 @@ export default class App extends Component {
     return (
       <>
         <div>
-          <h1>hello</h1>
+          <h1>jay</h1>
         </div>
         <Api/>
       </>
