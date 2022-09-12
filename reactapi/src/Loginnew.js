@@ -70,14 +70,14 @@ export default class Loginnew extends Component {
       if (data[index].email == this.state.email && data[index].pass == this.state.pass) {    
           window.location.href = "Table";
           datas = true
-      } 
+      }
     }
     if(datas) {
       alert('asda');
     } else {
       alert('asdas');
     }
-   
+   /* test */
   }
   render() {
     return (
