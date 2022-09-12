@@ -1,13 +1,10 @@
 import React, { Component } from 'react'
-import Api from './Api';
+import Router from './Router';
 export default class App extends Component {
   render() {
     return (
       <>
-        <div>
-          <h1>jay</h1>
-        </div>
-        <Api/>
+          <Router />
       </>
     )
   }
